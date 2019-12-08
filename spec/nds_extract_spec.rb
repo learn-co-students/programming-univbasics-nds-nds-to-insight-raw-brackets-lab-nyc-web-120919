@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe 'The directors_database method can be processed by the directors_totals method' do
   it 'which returns a Hash describing director to total' do
-    binding.pry
     expect(directors_totals(directors_database)).to be_kind_of(Hash)
   end
 
